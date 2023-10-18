@@ -1,0 +1,72 @@
+.create-task-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 16px;
+}
+
+.form-heading {
+  font-family: "Roboto";
+  font-size: 24px;
+  padding-bottom: 12px;
+}
+
+.create-task-form-container {
+  display: flex;
+  gap: 10px;
+}
+
+.input-error-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-task-input-filed {
+  width: 250px;
+  height: 34px;
+  border-radius: 6px;
+  font-family: "Roboto";
+  border: 1px solid #4c63b6;
+  outline: none;
+  padding-left: 10px;
+}
+
+.add-todo-button {
+  color: white;
+  background-color: #4c63b6;
+  font-family: "Roboto";
+  height: 34px;
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.error-text {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
+
+@media screen and (min-width: 768px) {
+  .create-task-section {
+    padding-left: 0;
+  }
+
+  .form-heading {
+    font-size: 36px;
+  }
+  .add-task-input-filed {
+    min-width: 600px;
+  }
+}

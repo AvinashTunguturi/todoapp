@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  gap: 10px;
+  background-color: #e9edf0;
+}
+
+.app-icon {
+  color: #a9e34b;
+  width: 40px;
+  height: 40px;
+}
+
+header h1 {
+  font-family: cursive;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-left: 60px;
+  }
+
+  .app-icon {
+    color: #a9e34b;
+    width: 60px;
+    height: 60px;
+  }
+
+  header h1 {
+    font-family: cursive;
+    font-size: 36px;
+  }
+}
